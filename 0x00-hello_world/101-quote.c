@@ -4,7 +4,7 @@
  *  * main - prints a quote to stderr
  *   *
  *    * Return: 1
- *     */
+ */
 
 int main(void)
 {
