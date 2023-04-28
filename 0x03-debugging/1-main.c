@@ -18,7 +18,7 @@ int main(void)
 	 * putchar
 	 * }
 	 */
-	printf("Infinte loop avaoided! \\0/\n"0;
+	printf("Infinte loop avaoided! \\0/\n");
 
-	return (0);
+	return (0); 
 }
