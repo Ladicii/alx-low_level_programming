@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * * main - prints string using printf function
- * *
- * * Return: 0
- * */
+* main - prints string using printf function
+* Description: Program that print out the srting is followed by a new line
+* Return: int 0 when done and no errors
+*/
 
 int main(void)
 {
