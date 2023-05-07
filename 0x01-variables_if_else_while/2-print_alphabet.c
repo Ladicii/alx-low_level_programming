@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-char letter = 'a';
-while (letter <= 'z')
+char alp[26] = "abcdefghijklmnopqrstuvwsyz"
+int i = '0' 
+for (i < 26; i++);
 {
-putchar(letter);
-letter ++;
+putchar(alp[1]);
 }
 putchar('\n');
-return 0;
-
+return(0);
+}
