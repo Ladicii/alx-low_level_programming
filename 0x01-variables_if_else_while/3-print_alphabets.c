@@ -13,7 +13,7 @@ while (b <= 122)
 {
 	putchar(b);
 }
-while (c <= 98)
+while (c <= 90)
 {
 	putchar(c);
 }
