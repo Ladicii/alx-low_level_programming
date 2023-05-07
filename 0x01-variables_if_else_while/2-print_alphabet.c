@@ -6,12 +6,12 @@
  */
 int main(void)
 {
-char alp[26] = "abcdefghijklmnopqrstuvwsyz"
-int i = '0' 
-for (i < 26; i++);
+int i = 97; 
+while (i <= 122)
 {
-putchar(alp[1]);
+putchar(i);
+i++;
 }
 putchar('\n');
-return(0);
+return (0);
 }
