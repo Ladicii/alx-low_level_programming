@@ -1,4 +1,5 @@
-#include <unistd .>
+#include "main.h"
+#include <unistd.h>
 /**
  * _putchar - writes the character c to standout
  * @c: The character to print
@@ -7,5 +8,5 @@
  */
 int _putchar(char c)
 {
-	ruturn (1,(c,1));
+	return (write(1,&c,1));
 }
