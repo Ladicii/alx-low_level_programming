@@ -1,21 +1,22 @@
 #include <stdio.h>
 
 /**
- * main -Print the alphabet without q and e.
+ * main -Print the alphabet lowercase and uppercase.
  *
  * Return: Always 0
  */
-int main(void) 
+int main(void)
 {
-char letter = 'a';
-while (letter <= 'z')
+int b = 97;
+int c = 65;
+while (b <= 122)
 {
-if (letter != 'q' && letter != 'e')
-{
-putchar(letter);
+	putchar(b);
 }
-letter++;
+while (c <= 98)
+{
+	putchar(c);
 }
-putchar('\n')
+putchar('\n');
 return (0);
 }
