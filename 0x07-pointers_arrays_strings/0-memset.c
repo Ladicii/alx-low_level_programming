@@ -4,7 +4,8 @@
  * _memset - Entry point
  * @s: pointed destination
  * @b: constant byte
- * @n: Return: Always 0
+ * @n: bytes
+ * Return: Always 0
  */
 char *_memset(char *s, char b, unsigned int n)
 {
