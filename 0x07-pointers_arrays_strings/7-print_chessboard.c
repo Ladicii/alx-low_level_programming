@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print _chessboard -Entry Point
- * @a: array
- * Return; Always 0
+ * print _chessboar - Print a chessboard.
+ * @a:The chessboard to be printed
+ * Return: Always 0
  */
 void print_chessboard(char (*a)[8])
 {
