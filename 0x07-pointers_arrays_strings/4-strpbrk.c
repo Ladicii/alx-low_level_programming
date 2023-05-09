@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * _strpbrk _Entry Point
+ * _strpbrk - Entry Point
  * @s: input
  * @accept: input
  * Return: Always 0
@@ -16,7 +16,7 @@ for (i = 0; s[i] != '\0'; i++)
 for (n = 0; accept[n] != '\0'; n++)
 {
 if (s[i] == accept[n])
-return (s + 1);
+return (s + i);
 }
 }
 return (NULL);
